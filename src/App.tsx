@@ -3,7 +3,7 @@ import { useTodos } from './hooks/useTodos';
 import { TodoForm } from './components/TodoForm';
 import { TodoList } from './components/TodoList';
 import { TodoFilter } from './components/TodoFilter';
-import { FilterType, SortType, Todo } from './types/todo';
+import { FilterType, SortType } from './types/todo';
 
 function App() {
   const { todos, addTodo, updateTodo, deleteTodo, toggleTodo } = useTodos();
